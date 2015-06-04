@@ -12,9 +12,7 @@
 */
 
 Route::get('/', 'WelcomeController@demo');
-
 Route::get('demorouter', 'WelcomeController@demo');
-
 /*Route::get('demorouter', function(){
     return "demorouter";
 });*/
